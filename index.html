@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jonathan Giang | Software Developer</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <script type="text/javascript">
+            function toggleTheme() {
+                let theme = document.documentElement.getAttribute('data-bs-theme');
+                if ( theme == 'light' ) {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark');
+                    document.getElementById('brand').setAttribute('src', 'assets/images/logo-wh-xs.png');
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', 'light');
+                    document.getElementById('brand').setAttribute('src', 'assets/images/logo-bk-xs.png');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top bg-secondary-subtle">
+            <div class="container-xxl">
+                <!-- button toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBtn" aria-controls="navbarBtn" aria-expanded="false" aria-label="Toggle buttons">
+                    <span class="navbar-toggler-icon"></button></span>
+                </button>
+                <!-- buttons -->
+                <div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarBtn">
+                    <div class="navbar-nav me-auto">
+                        <a class="nav-link" href="javascript:void" onclick="toggleTheme()">Theme</a>
+                        <a class="nav-link" href="https://github.com/jagged-dev" target="_blank">GitHub</a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/jonathan-giang/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <!-- brand -->
+                <div class="order-0">
+                    <a class="navbar-brand mx-auto" href="#">
+                        <img src="assets/images/logo-wh-xs.png" alt="Home" width="64" id="brand">
+                    </a>
+                </div>
+                <!-- navigation -->
+                <div class="collapse navbar-collapse w-100 order-1" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#education">Education</a>
+                        <a class="nav-link" href="#career">Career</a>
+                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+                <!-- nav toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+        <div class="container-xxl">
+            <!-- about -->
+            <div class="card bg-secondary-subtle border-0 my-4" id="about">
+                <div class="card-body">
+                    <h1 class="display-1 text-body">Body</h1>
+                    <h1 class="display-1 text-primary">Primary</h1>
+                    <h1 class="display-1 text-secondary">Secondary</h1>
+                    <h1 class="display-1 text-success">Success</h1>
+                    <h1 class="display-1 text-info">Info</h1>
+                    <h1 class="display-1 text-warning">Warning</h1>
+                    <h1 class="display-1 text-danger">Danger</h1>
+                    <h1 class="display-1 text-light">Light</h1>
+                    <h1 class="display-1 text-dark">Dark</h1>
+                </div>
+            </div>
+            <!-- contact -->
+            <div class="card bg-secondary-subtle border-0 my-4" id="contact">
+                <div class="card-body">
+                    <h1 class="display-1 text-body-emphasis">Body</h1>
+                    <h1 class="display-1 text-primary-emphasis">Primary</h1>
+                    <h1 class="display-1 text-secondary-emphasis">Secondary</h1>
+                    <h1 class="display-1 text-success-emphasis">Success</h1>
+                    <h1 class="display-1 text-info-emphasis">Info</h1>
+                    <h1 class="display-1 text-warning-emphasis">Warning</h1>
+                    <h1 class="display-1 text-danger-emphasis">Danger</h1>
+                    <h1 class="display-1 text-light-emphasis">Light</h1>
+                    <h1 class="display-1 text-dark-emphasis">Dark</h1>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
