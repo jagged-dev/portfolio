@@ -14,9 +14,13 @@
                 if ( theme == 'light' ) {
                     document.documentElement.setAttribute('data-bs-theme', 'dark');
                     document.getElementById('brand').setAttribute('src', 'assets/images/logo-wh-xl.png');
+                    document.getElementById('lightToggle').classList.remove('d-none');
+                    document.getElementById('darkToggle').classList.add('d-none');
                 } else {
                     document.documentElement.setAttribute('data-bs-theme', 'light');
                     document.getElementById('brand').setAttribute('src', 'assets/images/logo-bk-xl.png');
+                    document.getElementById('lightToggle').classList.add('d-none');
+                    document.getElementById('darkToggle').classList.remove('d-none');
                 }
             }
         </script>
