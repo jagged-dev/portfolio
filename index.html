@@ -13,12 +13,14 @@
                 let theme = document.documentElement.getAttribute('data-bs-theme');
                 if ( theme == 'light' ) {
                     document.documentElement.setAttribute('data-bs-theme', 'dark');
-                    document.getElementById('brand').setAttribute('src', 'assets/images/logo-wh-xl.png');
+                    document.getElementById('navBrand').setAttribute('src', 'assets/images/logo-wh-xl.png');
+                    document.getElementById('canvasBrand').setAttribute('src', 'assets/images/logo-wh-xl.png');
                     document.getElementById('lightToggle').classList.remove('d-none');
                     document.getElementById('darkToggle').classList.add('d-none');
                 } else {
                     document.documentElement.setAttribute('data-bs-theme', 'light');
-                    document.getElementById('brand').setAttribute('src', 'assets/images/logo-bk-xl.png');
+                    document.getElementById('navBrand').setAttribute('src', 'assets/images/logo-bk-xl.png');
+                    document.getElementById('canvasBrand').setAttribute('src', 'assets/images/logo-bk-xl.png');
                     document.getElementById('lightToggle').classList.add('d-none');
                     document.getElementById('darkToggle').classList.remove('d-none');
                 }
@@ -29,14 +31,14 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg sticky-top bg-secondary-subtle">
             <div class="container-xxl">
-                <!-- btn toggler -->
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBtn" aria-controls="navbarBtn" aria-expanded="false" aria-label="Toggle buttons">
+                <!-- offcanvas toggler -->
+                <button type="button" class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
                     <i class="bi-list fs-4"></i>
                 </button>
                 <!-- buttons -->
-                <div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarBtn">
+                <div class="collapse navbar-collapse w-100 order-1 order-lg-0">
                     <div class="navbar-nav me-auto">
-                        <a class="nav-link" href="javascript:void" onclick="toggleTheme()">
+                        <a class="nav-link" href="javascript:toggleTheme()">
                             <i class="bi-brightness-high-fill fs-4" id="lightToggle"></i>
                             <i class="bi-moon-fill fs-4 d-none" id="darkToggle"></i>
                         </a>
@@ -51,11 +53,11 @@
                 <!-- brand -->
                 <div class="order-0">
                     <a class="navbar-brand mx-auto" href="#">
-                        <img src="assets/images/logo-wh-xl.png" alt="Home" width="64" id="brand">
+                        <img src="assets/images/logo-wh-xl.png" alt="Home" width="64" id="navBrand">
                     </a>
                 </div>
                 <!-- navigation -->
-                <div class="collapse navbar-collapse w-100 order-1" id="navbarNav">
+                <div class="collapse navbar-collapse w-100 order-1">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link" href="#about">About</a>
                         <a class="nav-link" href="#education">Education</a>
@@ -64,10 +66,50 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </div>
                 </div>
-                <!-- nav toggler -->
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- offcanvas toggler -->
+                <button type="button" class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
                     <i class="bi-three-dots fs-4"></i>
                 </button>
+                <!-- offcanvas -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav">
+                    <!-- close button -->
+                    <div class="offcanvas-header">
+                        <a class="nav-link" href="javascript:void" data-bs-dismiss="offcanvas">
+                            <i class="bi-x fs-4"></i>
+                        </a>
+                    </div>
+                    <!-- brand -->
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand mx-auto" href="#">
+                            <img src="assets/images/logo-wh-xl.png" alt="Home" width="50" data-bs-dismiss="offcanvas" id="canvasBrand">
+                        </a>
+                    </div>
+                    <!-- navigation -->
+                    <div class="offcanvas-header">
+                        <ul class="navbar-nav text-center mx-auto">
+                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#education">Education</a></li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#career">Career</a></li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#projects">Projects</a></li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- buttons -->
+                    <div class="offcanvas-header">
+                        <div class="mx-auto">
+                            <a class="nav-link d-inline mx-2" href="javascript:toggleTheme()">
+                                <i class="bi-brightness-high-fill fs-4" id="lightToggle"></i>
+                                <i class="bi-moon-fill fs-4 d-none" id="darkToggle"></i>
+                            </a>
+                            <a class="nav-link d-inline mx-2" href="https://github.com/jagged-dev" target="_blank">
+                                <i class="bi-github fs-4"></i>
+                            </a>
+                            <a class="nav-link d-inline mx-2" href="https://www.linkedin.com/in/jonathan-giang/" target="_blank">
+                                <i class="bi-linkedin fs-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
 
