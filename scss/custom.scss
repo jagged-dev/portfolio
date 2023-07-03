@@ -1,0 +1,58 @@
+// misc
+@import "../assets/bootstrap/scss/mixins/banner";
+@include bsBanner("");
+
+// functions
+@import "../assets/bootstrap/scss/functions";
+
+// default variable overrides
+
+// variables
+@import "../assets/bootstrap/scss/variables";
+@import "../assets/bootstrap/scss/variables-dark";
+
+// default map overrides
+
+// configuration
+@import "../assets/bootstrap/scss/maps";
+@import "../assets/bootstrap/scss/mixins";
+@import "../assets/bootstrap/scss/utilities";
+
+// layout & components
+@import "../assets/bootstrap/scss/root";
+@import "../assets/bootstrap/scss/reboot";
+@import "../assets/bootstrap/scss/type";
+@import "../assets/bootstrap/scss/images";
+@import "../assets/bootstrap/scss/containers";
+@import "../assets/bootstrap/scss/grid";
+@import "../assets/bootstrap/scss/tables";
+@import "../assets/bootstrap/scss/forms";
+@import "../assets/bootstrap/scss/buttons";
+@import "../assets/bootstrap/scss/transitions";
+@import "../assets/bootstrap/scss/dropdown";
+@import "../assets/bootstrap/scss/button-group";
+@import "../assets/bootstrap/scss/nav";
+@import "../assets/bootstrap/scss/navbar";
+@import "../assets/bootstrap/scss/card";
+@import "../assets/bootstrap/scss/accordion";
+@import "../assets/bootstrap/scss/breadcrumb";
+@import "../assets/bootstrap/scss/pagination";
+@import "../assets/bootstrap/scss/badge";
+@import "../assets/bootstrap/scss/alert";
+@import "../assets/bootstrap/scss/progress";
+@import "../assets/bootstrap/scss/list-group";
+@import "../assets/bootstrap/scss/close";
+@import "../assets/bootstrap/scss/toasts";
+@import "../assets/bootstrap/scss/modal";
+@import "../assets/bootstrap/scss/tooltip";
+@import "../assets/bootstrap/scss/popover";
+@import "../assets/bootstrap/scss/carousel";
+@import "../assets/bootstrap/scss/spinners";
+@import "../assets/bootstrap/scss/offcanvas";
+@import "../assets/bootstrap/scss/placeholders";
+
+// helpers
+@import "../assets/bootstrap/scss/helpers";
+
+// utilities
+@import "../assets/bootstrap/scss/utilities/api";
