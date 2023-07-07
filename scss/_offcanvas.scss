@@ -1,0 +1,9 @@
+// custom offcanvas
+
+.offcanvas i {
+    font-size: 1.5rem;
+}
+
+.offcanvas i:hover, .offcanvas .nav-link:hover {
+    color: var(--bs-primary);
+}
