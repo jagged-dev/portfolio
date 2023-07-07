@@ -31,87 +31,54 @@
     </head>
     <body>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg sticky-top bg-secondary-subtle">
+        <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container-xxl">
-                <!-- offcanvas toggler -->
-                <button type="button" class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
-                    <i class="bi-list fs-4"></i>
+                <!-- nav toggler -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+                    <i class="bi-list"></i>
                 </button>
-                <!-- buttons -->
-                <div class="collapse navbar-collapse w-100 order-1 order-lg-0">
+                <!-- navigation -->
+                <div class="collapse navbar-collapse w-100">
                     <div class="navbar-nav me-auto">
-                        <a class="nav-link" href="javascript:toggleTheme()">
-                            <i class="bi-brightness-high-fill fs-4" id="lightToggle"></i>
-                            <i class="bi-moon-fill fs-4 d-none" id="darkToggle"></i>
-                        </a>
-                        <a class="nav-link" href="https://github.com/jagged-dev" target="_blank">
-                            <i class="bi-github fs-4"></i>
-                        </a>
-                        <a class="nav-link" href="https://www.linkedin.com/in/jonathan-giang/" target="_blank">
-                            <i class="bi-linkedin fs-4"></i>
-                        </a>
+                        <a class="nav-link" href="#about"><b>About</b></a>
+                        <a class="nav-link" href="#education"><b>Education</b></a>
+                        <a class="nav-link" href="#career"><b>Career</b></a>
+                        <a class="nav-link" href="#projects"><b>Projects</b></a>
+                        <a class="nav-link" href="#contact"><b>Contact</b></a>
                     </div>
                 </div>
                 <!-- brand -->
-                <div class="order-0">
-                    <a class="navbar-brand mx-auto" href="#">
-                        <img src="assets/images/logo-wh-xl.png" alt="Home" width="64" id="navBrand">
-                    </a>
-                </div>
-                <!-- navigation -->
-                <div class="collapse navbar-collapse w-100 order-1">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo-lt-gy-xl.png" class="brand-logo" alt="Home" width="64">
+                    <img src="assets/images/logo-dk-gy-xl.png" class="brand-logo d-none" alt="Home" width="64">
+                </a>
+                <!-- buttons -->
+                <div class="collapse navbar-collapse w-100">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#about">About</a>
-                        <a class="nav-link" href="#education">Education</a>
-                        <a class="nav-link" href="#career">Career</a>
-                        <a class="nav-link" href="#projects">Projects</a>
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="https://www.facebook.com/JonathanGiang430/" target="_blank">
+                            <i class="bi-facebook"></i>
+                        </a>
+                        <a class="nav-link" href="https://www.instagram.com/jonathangiang/?hl=en" target="_blank">
+                            <i class="bi-instagram"></i>
+                        </a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/jonathan-giang/" target="_blank">
+                            <i class="bi-linkedin"></i>
+                        </a>
+                        <a class="nav-link" href="https://github.com/jagged-dev" target="_blank">
+                            <i class="bi-github"></i>
+                        </a>
+                        <a class="nav-link theme-toggle" href="javascript:toggleTheme()">
+                            <i class="bi-moon-fill"></i>
+                        </a>
+                        <a class="nav-link theme-toggle d-none" href="javascript:toggleTheme()">
+                            <i class="bi-sun-fill"></i>
+                        </a>
                     </div>
                 </div>
-                <!-- offcanvas toggler -->
-                <button type="button" class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
-                    <i class="bi-three-dots fs-4"></i>
+                <!-- btn toggler -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBtn">
+                    <i class="bi-three-dots"></i>
                 </button>
-                <!-- offcanvas -->
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav">
-                    <!-- close button -->
-                    <div class="offcanvas-header">
-                        <a class="nav-link" href="javascript:void" data-bs-dismiss="offcanvas">
-                            <i class="bi-x fs-4"></i>
-                        </a>
-                    </div>
-                    <!-- brand -->
-                    <div class="offcanvas-header">
-                        <a class="navbar-brand mx-auto" href="#">
-                            <img src="assets/images/logo-wh-xl.png" alt="Home" width="50" data-bs-dismiss="offcanvas" id="canvasBrand">
-                        </a>
-                    </div>
-                    <!-- navigation -->
-                    <div class="offcanvas-header">
-                        <ul class="navbar-nav text-center mx-auto">
-                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#about">About</a></li>
-                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#education">Education</a></li>
-                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#career">Career</a></li>
-                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#projects">Projects</a></li>
-                            <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    <!-- buttons -->
-                    <div class="offcanvas-header">
-                        <div class="mx-auto">
-                            <a class="nav-link d-inline mx-2" href="javascript:toggleTheme()">
-                                <i class="bi-brightness-high-fill fs-4" id="lightToggle"></i>
-                                <i class="bi-moon-fill fs-4 d-none" id="darkToggle"></i>
-                            </a>
-                            <a class="nav-link d-inline mx-2" href="https://github.com/jagged-dev" target="_blank">
-                                <i class="bi-github fs-4"></i>
-                            </a>
-                            <a class="nav-link d-inline mx-2" href="https://www.linkedin.com/in/jonathan-giang/" target="_blank">
-                                <i class="bi-linkedin fs-4"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </nav>
 
