@@ -1,17 +1,15 @@
-// misc
-@import "../assets/bootstrap/scss/mixins/banner";
-@include bsBanner("");
-
 // functions
 @import "../assets/bootstrap/scss/functions";
 
-// default variable overrides
+// custom
+@import "variables";
+@import "navbar";
+@import "offcanvas";
+@import "fonts";
 
 // variables
 @import "../assets/bootstrap/scss/variables";
 @import "../assets/bootstrap/scss/variables-dark";
-
-// default map overrides
 
 // configuration
 @import "../assets/bootstrap/scss/maps";
@@ -56,3 +54,7 @@
 
 // utilities
 @import "../assets/bootstrap/scss/utilities/api";
+
+// misc
+@import "../assets/bootstrap/scss/mixins/banner";
+@include bsBanner("");
