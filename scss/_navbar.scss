@@ -1,0 +1,25 @@
+// custom navbar
+
+.navbar {
+    transition: 0.1s ease-in;
+}
+
+.navbar.scrolled {
+    background: var(--bs-secondary-bg);
+}
+
+.navbar i {
+    font-size: 1.5rem;
+}
+
+.navbar i:hover {
+    color: var(--bs-primary);
+}
+
+.navbar-toggler {
+    --bs-border-width: 0;
+}
+
+[id] {
+    scroll-margin-top: 7rem;
+}
