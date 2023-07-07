@@ -1,3 +1,6 @@
+$(window).scroll(function() {
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 0);
+});
 
 function toggleTheme() {
     $('.brand-logo').toggleClass('d-none');
