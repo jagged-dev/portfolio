@@ -1,6 +1,5 @@
-/** @type {import('prettier').Options} */
+/** @type {import("prettier").Options} */
 module.exports = {
-  plugins: ["prettier-plugin-tailwindcss"],
   overrides: [
     {
       files: ["**/*.{html,css}", "js/*.js"],
@@ -15,4 +14,5 @@ module.exports = {
       },
     },
   ],
+  plugins: ["prettier-plugin-tailwindcss"],
 };
