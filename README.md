@@ -1,8 +1,9 @@
-Jonathan Giang's Biographical Website.
+Jonathan Giang's Online Portfolio.
 
-Outlined in this website are:
-- facts about me
-- education history
-- career history
-- projects
-- contact info
+Outlined in this portfolio are:
+
+facts about me
+education history
+career history
+projects
+contact info
