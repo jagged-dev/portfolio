@@ -13,8 +13,16 @@ function toggleTheme() {
     localStorage.theme = $(document.documentElement).hasClass("dark") ? "dark" : "light";
 }
 
-/** scroll functions **/
+/** navbar functions **/
 
 $(window).scroll(function () {
     $("nav").attr("data-scrolled", $(this).scrollTop() > 0);
 });
+
+$(window).on("resize", function () {
+    if (window.innerWidth >= 1024) $("nav, #nav-collapse").attr("data-expanded", false);
+});
+
+function toggleNav() {
+    $("nav, #nav-collapse").attr("data-expanded", $("nav, #nav-collapse").attr("data-expanded") != "true");
+}
