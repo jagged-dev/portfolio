@@ -38,6 +38,10 @@ module.exports = {
       "9xl": "9rem",
       "10xl": "10rem",
     },
+    data: {
+      scrolled: "scrolled='true'",
+      expanded: "expanded='true'",
+    },
     extend: {
       fontFamily: {
         sans: ['"SF Pro"', '"Product Sans"', ...defaultTheme.fontFamily.sans],
@@ -45,22 +49,29 @@ module.exports = {
       backgroundImage: {
         "hero-light": "url('../assets/images/backgrounds/dots-bk.png')",
         "hero-dark": "url('../assets/images/backgrounds/dots-wh.png')",
+        "logo-light": "url('../assets/images/logo/logo-lt.png')",
+        "logo-dark": "url('../assets/images/logo/logo-dk.png')",
+        "logo-red": "url('../assets/images/logo/logo-rd.png')",
         "theme-light": "url('../assets/images/icons/theme-lt.png')",
         "theme-dark": "url('../assets/images/icons/theme-dk.png')",
         "theme-red": "url('../assets/images/icons/theme-rd.png')",
+        "menu-light": "url('../assets/images/icons/menu-lt.png')",
+        "menu-dark": "url('../assets/images/icons/menu-dk.png')",
+        "menu-red": "url('../assets/images/icons/menu-rd.png')",
       },
       transitionProperty: {
-        DEFAULT: "background-image, font-size, " + defaultTheme.transitionProperty.DEFAULT,
+        DEFAULT: "background-image, height, font-size, " + defaultTheme.transitionProperty.DEFAULT,
         background: "background-color, background-image",
         font: "font-size, color",
       },
       animation: {
-        "fade-in": "fade-in 1s ease-in-out 1",
+        "fade-200": "fade 0.2s ease-in-out 1",
+        "fade-1000": "fade 1s ease-in-out 1",
         "slide-up": "slide-up 0.5s ease-out 1",
         "slide-down": "slide-down 0.5s ease-out 1",
       },
       keyframes: {
-        "fade-in": {
+        fade: {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
