@@ -1,7 +1,7 @@
 /** @type {import("prettier").Options} */
 
 module.exports = {
-  printWidth: 240,
+  printWidth: 250,
   overrides: [
     {
       files: ["*.html", "js/*.js"],
