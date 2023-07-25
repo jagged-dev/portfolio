@@ -12,38 +12,44 @@
     </head>
     <body class="animate-fade-1000 bg-white transition-background duration-500 dark:bg-black">
         <!-- navbar -->
-        <nav class="fixed flex h-28 w-full animate-slide-down flex-wrap p-6 transition data-scrolled:bg-ice data-scrolled:shadow-md data-expanded:h-[24.5rem] data-expanded:bg-ice data-expanded:shadow-md data-scrolled:dark:bg-charcoal data-expanded:dark:bg-charcoal">
+        <nav class="fixed flex h-28 w-full animate-slide-down flex-wrap gap-y-8 p-8 transition data-scrolled:bg-ice data-scrolled:shadow-md data-expanded:h-[21rem] data-expanded:bg-ice data-expanded:shadow-md dark:data-scrolled:bg-charcoal dark:data-expanded:bg-charcoal">
             <!-- nav toggle -->
             <div class="flex w-1/4 justify-start lg:hidden">
-                <a href="javascript:toggleNav()">
-                    <div class="m-5 h-6 w-6 bg-menu-dark bg-cover transition hover:bg-menu-red dark:bg-menu-light hover:dark:bg-menu-red"></div>
+                <a class="flex h-12 w-12 items-center justify-center text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="javascript:toggleNav()">
+                    <svg class="h-8 w-8">
+                        <use xlink:href="#menu" />
+                    </svg>
                 </a>
             </div>
             <!-- brand logo -->
             <div class="flex w-1/2 justify-center lg:w-1/4 lg:justify-start">
-                <a href="#">
-                    <div class="h-16 w-16 bg-logo-dark bg-cover transition hover:bg-logo-red dark:bg-logo-light hover:dark:bg-logo-red"></div>
+                <a class="text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="#">
+                    <svg class="h-12 w-12">
+                        <use xlink:href="#logo" />
+                    </svg>
                 </a>
             </div>
             <!-- nav links -->
             <div class="hidden w-1/2 justify-center lg:flex">
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#about">About</a>
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#experience">Experience</a>
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#projects">Projects</a>
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#contact">Contact</a>
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="#about">About</a>
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="#experience">Experience</a>
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="#projects">Projects</a>
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="#contact">Contact</a>
             </div>
             <!-- theme toggle -->
             <div class="flex w-1/4 justify-end">
-                <a href="javascript:toggleTheme()">
-                    <div class="m-5 h-6 w-6 bg-theme-dark bg-cover transition hover:bg-theme-red dark:rotate-180 dark:bg-theme-light hover:dark:bg-theme-red"></div>
+                <a class="flex h-12 w-12 items-center justify-center text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="javascript:toggleTheme()">
+                    <svg class="h-6 w-6 transition-transform duration-500 ease-out dark:rotate-180">
+                        <use xlink:href="#theme" />
+                    </svg>
                 </a>
             </div>
             <!-- nav collapse -->
-            <div class="mt-6 hidden w-full animate-fade-200 flex-col data-expanded:flex" id="nav-collapse">
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#about">About</a>
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#experience">Experience</a>
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#projects">Projects</a>
-                <a class="p-5 font-bold text-charcoal transition-font hover:text-red dark:text-ice hover:dark:text-red" href="#contact">Contact</a>
+            <div class="hidden w-full animate-fade-200 flex-col data-expanded:flex" id="nav-collapse">
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="javascript:scrollToElement('about')">About</a>
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="javascript:scrollToElement('experience')">Experience</a>
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="javascript:scrollToElement('projects')">Projects</a>
+                <a class="p-3 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="javascript:scrollToElement('contact')">Contact</a>
             </div>
         </nav>
 
