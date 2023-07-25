@@ -26,10 +26,3 @@ $(window).on("resize", function () {
 function toggleNav() {
     $("nav, #nav-collapse").attr("data-expanded", $("nav, #nav-collapse").attr("data-expanded") != "true");
 }
-
-function scrollToElement(id) {
-    var offset = $("#" + id).offset().top;
-    var navbarHeight = 112;
-    $(window).scrollTop(offset - navbarHeight);
-    toggleNav();
-}
