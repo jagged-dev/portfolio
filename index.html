@@ -94,8 +94,28 @@
 
         <!-- contact -->
         <div class="w-full scroll-mt-28 bg-snow transition-background duration-500 dark:bg-coal" id="contact">
-            <div class="container mx-auto flex h-screen justify-center p-16">
-                <h1 class="text-2xl font-bold text-charcoal transition-font dark:text-ice sm:text-2xl md:text-[2.5rem] lg:text-3xl">Contact</h1>
+            <div class="container flex flex-col gap-8 p-12 lg:p-16">
+                <!-- header -->
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-2xl font-bold text-charcoal transition-font dark:text-ice sm:text-2xl md:text-[2.5rem] lg:text-3xl">Contact</h1>
+                    <p class="text-gunmetal transition-font dark:text-silver">
+                        Feel free to send me an email if you are interested in connecting, have any questions, or just want to say hello. You can also email me directly at
+                        <a class="ml-1 font-bold text-charcoal transition-font hover:text-red dark:text-ice dark:hover:text-red" href="mailto:jgiang.430@gmail.com">jgiang.430@gmail.com</a>.
+                    </p>
+                </div>
+                <!-- contact form -->
+                <div class="flex flex-col gap-6">
+                    <div class="flex flex-col gap-1">
+                        <label class="font-bold text-charcoal transition-font dark:text-ice" for="subject">Subject</label>
+                        <input class="rounded-md border border-gunmetal border-opacity-25 bg-ice px-4 py-2 text-gunmetal transition dark:border-silver dark:border-opacity-25 dark:bg-charcoal dark:text-silver" id="subject" name="subject" />
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <label class="font-bold text-charcoal transition-font dark:text-ice" for="message">Message</label>
+                        <textarea class="h-96 rounded-md border border-gunmetal border-opacity-25 bg-ice px-4 py-2 text-gunmetal transition dark:border-silver dark:border-opacity-25 dark:bg-charcoal dark:text-silver" id="message" name="message"></textarea>
+                    </div>
+                </div>
+                <!-- send button -->
+                <button class="h-12 w-24 rounded-full bg-red font-bold text-ice transition hover:opacity-50" onclick="sendEmail()">Send</button>
             </div>
         </div>
 
