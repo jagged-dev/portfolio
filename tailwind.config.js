@@ -37,6 +37,9 @@ module.exports = {
       "9xl": "9rem",
       "10xl": "10rem",
     },
+    container: {
+      center: true,
+    },
     data: {
       scrolled: "scrolled='true'",
       expanded: "expanded='true'",
