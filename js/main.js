@@ -26,3 +26,15 @@ $(window).on("resize", function () {
 function toggleNav() {
     $("nav, #nav-collapse").attr("data-expanded", $("nav, #nav-collapse").attr("data-expanded") != "true");
 }
+
+/** email functions **/
+
+function sendEmail() {
+    var subject = $("#subject").val();
+    var message = $("#message").val().split("\n").join("%0D%0A");
+    var url = "mailto:jgiang.430@gmail.com?subject=" + subject + "&body=" + message;
+    window.open(url);
+    $("#subject").val("");
+    $("#message").val("");
+    alert("Email sent successfully.");
+}
