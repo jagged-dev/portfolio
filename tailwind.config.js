@@ -48,6 +48,18 @@ module.exports = {
       fontFamily: {
         sans: ['"SF Pro"', '"Product Sans"', ...defaultTheme.fontFamily.sans],
       },
+      screens: {
+        xs: "500px",
+      },
+      spacing: {
+        18: "4.5rem",
+      },
+      height: {
+        "screen/2": "50vh",
+      },
+      width: {
+        "screen/2": "50vw",
+      },
       backgroundImage: {
         "cards-black": "url('../assets/images/backgrounds/cards-bk.png')",
         "cards-white": "url('../assets/images/backgrounds/cards-wh.png')",
@@ -57,10 +69,18 @@ module.exports = {
         "lines-white": "url('../assets/images/backgrounds/lines-wh.png')",
         "polygons-black": "url('../assets/images/backgrounds/polygons-bk.png')",
         "polygons-white": "url('../assets/images/backgrounds/polygons-wh.png')",
+        "cashx-light": "url('../assets/images/screenshots/cashx-lt.png')",
+        "cashx-dark": "url('../assets/images/screenshots/cashx-dk.png')",
+        "watchparty-light": "url('../assets/images/screenshots/watchparty-lt.png')",
+        "watchparty-dark": "url('../assets/images/screenshots/watchparty-dk.png')",
+        "checked-light": "url('../assets/images/screenshots/checked-lt.png')",
+        "checked-dark": "url('../assets/images/screenshots/checked-dk.png')",
+        "killa-light": "url('../assets/images/screenshots/killa-lt.png')",
+        "killa-dark": "url('../assets/images/screenshots/killa-dk.png')",
       },
       transitionProperty: {
         DEFAULT: "background-image, height, font-size, " + defaultTheme.transitionProperty.DEFAULT,
-        background: "background-color, background-image",
+        background: "background-image, background-color",
         font: "font-size, color",
       },
       animation: {
