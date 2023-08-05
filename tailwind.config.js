@@ -54,11 +54,8 @@ module.exports = {
       spacing: {
         18: "4.5rem",
       },
-      height: {
-        "screen/2": "50vh",
-      },
-      width: {
-        "screen/2": "50vw",
+      aspectRatio: {
+        "5/4": "5/4",
       },
       backgroundImage: {
         "cards-black": "url('../assets/images/backgrounds/cards-bk.png')",
