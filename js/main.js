@@ -1,3 +1,11 @@
+/** refresh functions **/
+
+history.scrollRestoration = "manual";
+
+$(window).on("beforeunload", function () {
+    $(window).scrollTop(0);
+});
+
 /** theme functions **/
 
 $(document).ready(function () {
