@@ -688,10 +688,6 @@ video {
   width: 25%;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
 .w-14 {
   width: 3.5rem;
 }
@@ -856,10 +852,6 @@ video {
   row-gap: 1rem;
 }
 
-.gap-y-8 {
-  row-gap: 2rem;
-}
-
 .place-self-start {
   place-self: start;
 }
@@ -992,10 +984,6 @@ video {
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .px-4 {
@@ -1244,6 +1232,10 @@ video {
 
   .xs\:w-12 {
     width: 3rem;
+  }
+
+  .xs\:gap-8 {
+    gap: 2rem;
   }
 
   .xs\:gap-y-8 {
