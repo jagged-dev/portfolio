@@ -943,7 +943,7 @@ video {
 }
 
 .bg-dots-black {
-  background-image: url('../assets/images/backgrounds/dots-bk.png');
+  background-image: url('../assets/images/backgrounds/dots-bk-min.png');
 }
 
 .bg-killa-light {
@@ -1189,7 +1189,7 @@ video {
 }
 
 :is(.dark .dark\:bg-dots-white) {
-  background-image: url('../assets/images/backgrounds/dots-wh.png');
+  background-image: url('../assets/images/backgrounds/dots-wh-min.png');
 }
 
 :is(.dark .dark\:bg-killa-dark) {

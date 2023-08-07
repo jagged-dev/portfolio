@@ -60,8 +60,8 @@ module.exports = {
       backgroundImage: {
         "cards-black": "url('../assets/images/backgrounds/cards-bk.png')",
         "cards-white": "url('../assets/images/backgrounds/cards-wh.png')",
-        "dots-black": "url('../assets/images/backgrounds/dots-bk.png')",
-        "dots-white": "url('../assets/images/backgrounds/dots-wh.png')",
+        "dots-black": "url('../assets/images/backgrounds/dots-bk-min.png')",
+        "dots-white": "url('../assets/images/backgrounds/dots-wh-min.png')",
         "lines-black": "url('../assets/images/backgrounds/lines-bk.png')",
         "lines-white": "url('../assets/images/backgrounds/lines-wh.png')",
         "polygons-black": "url('../assets/images/backgrounds/polygons-bk.png')",
