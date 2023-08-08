@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.dark {
+  color-scheme: dark;
+}
+
 @layer base {
   @font-face {
     font-family: "SF Pro";
@@ -11,10 +15,6 @@
     font-family: "Product Sans";
     src: url("../assets/fonts/product-sans/product-sans-regular.ttf") format("truetype");
   }
-}
-
-.dark {
-  color-scheme: dark;
 }
 
 @supports (-webkit-touch-callout: none) {
