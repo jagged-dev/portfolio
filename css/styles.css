@@ -1102,6 +1102,20 @@ video {
   color-scheme: dark;
 }
 
+@supports (-webkit-touch-callout: none) {
+  @font-face {
+    font-family: "SF Pro";
+
+    src: url("../assets/fonts/sf-pro/sf-pro-display-semibold.ttf") format("truetype");
+
+    font-weight: bold;
+  }
+
+  .font-bold {
+    letter-spacing: -0.03em;
+  }
+}
+
 .hover\:bg-red:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(235 0 40 / var(--tw-bg-opacity));

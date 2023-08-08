@@ -16,3 +16,17 @@
 .dark {
   color-scheme: dark;
 }
+
+@supports (-webkit-touch-callout: none) {
+  @font-face {
+    font-family: "SF Pro";
+    src: url("../assets/fonts/sf-pro/sf-pro-display-semibold.ttf") format("truetype");
+    font-weight: bold;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .font-bold {
+    letter-spacing: -0.03em;
+  }
+}
