@@ -1098,10 +1098,6 @@ video {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-.dark {
-  color-scheme: dark;
-}
-
 @supports (-webkit-touch-callout: none) {
   @font-face {
     font-family: "SF Pro";
@@ -1118,6 +1114,10 @@ video {
   .bg-fixed {
     background-attachment: scroll;
   }
+}
+
+.dark {
+  color-scheme: dark;
 }
 
 .hover\:bg-red:hover {

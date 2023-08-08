@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.dark {
-  color-scheme: dark;
-}
-
 @layer base {
   @font-face {
     font-family: "SF Pro";
@@ -23,16 +19,16 @@
     src: url("../assets/fonts/sf-pro/sf-pro-display-semibold.ttf") format("truetype");
     font-weight: bold;
   }
-}
 
-@supports (-webkit-touch-callout: none) {
   .font-bold {
     letter-spacing: -0.03em;
   }
-}
 
-@supports (-webkit-touch-callout: none) {
   .bg-fixed {
     background-attachment: scroll;
   }
+}
+
+.dark {
+  color-scheme: dark;
 }
