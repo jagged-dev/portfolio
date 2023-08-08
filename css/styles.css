@@ -1114,6 +1114,10 @@ video {
   .font-bold {
     letter-spacing: -0.03em;
   }
+
+  .bg-fixed {
+    background-attachment: scroll;
+  }
 }
 
 .hover\:bg-red:hover {

@@ -30,3 +30,9 @@
     letter-spacing: -0.03em;
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  .bg-fixed {
+    background-attachment: scroll;
+  }
+}
