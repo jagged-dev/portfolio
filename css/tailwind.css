@@ -19,11 +19,9 @@
     src: url("../assets/fonts/sf-pro/sf-pro-display-semibold.ttf") format("truetype");
     font-weight: bold;
   }
-
   .font-bold {
     letter-spacing: -0.03em;
   }
-
   .bg-fixed {
     background-attachment: scroll;
   }
