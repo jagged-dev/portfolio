@@ -7,10 +7,6 @@
     font-family: "SF Pro";
     src: url("../assets/fonts/sf-pro/sf-pro-display-regular.ttf") format("truetype");
   }
-  @font-face {
-    font-family: "Product Sans";
-    src: url("../assets/fonts/product-sans/product-sans-regular.ttf") format("truetype");
-  }
 }
 
 @supports (-webkit-touch-callout: none) {

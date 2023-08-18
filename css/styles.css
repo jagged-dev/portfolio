@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: "SF Pro", "Product Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "SF Pro", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -438,12 +438,6 @@ video {
   font-family: "SF Pro";
 
   src: url("../assets/fonts/sf-pro/sf-pro-display-regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Product Sans";
-
-  src: url("../assets/fonts/product-sans/product-sans-regular.ttf") format("truetype");
 }
 
 *, ::before, ::after {

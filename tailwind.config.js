@@ -46,7 +46,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['"SF Pro"', '"Product Sans"', ...defaultTheme.fontFamily.sans],
+        sans: ['"SF Pro"', ...defaultTheme.fontFamily.sans],
       },
       screens: {
         xs: "500px",
@@ -58,20 +58,14 @@ module.exports = {
         "5/4": "5/4",
       },
       backgroundImage: {
-        "cards-black": "url('../assets/images/backgrounds/cards-bk.png')",
-        "cards-white": "url('../assets/images/backgrounds/cards-wh.png')",
-        "dots-black": "url('../assets/images/backgrounds/dots-bk.png')",
         "dots-white": "url('../assets/images/backgrounds/dots-wh.png')",
-        "lines-black": "url('../assets/images/backgrounds/lines-bk.png')",
-        "lines-white": "url('../assets/images/backgrounds/lines-wh.png')",
-        "polygons-black": "url('../assets/images/backgrounds/polygons-bk.png')",
-        "polygons-white": "url('../assets/images/backgrounds/polygons-wh.png')",
+        "dots-black": "url('../assets/images/backgrounds/dots-bk.png')",
         "cashx-light": "url('../assets/images/screenshots/cashx-lt.png')",
         "cashx-dark": "url('../assets/images/screenshots/cashx-dk.png')",
-        "watchparty-light": "url('../assets/images/screenshots/watchparty-lt.png')",
-        "watchparty-dark": "url('../assets/images/screenshots/watchparty-dk.png')",
         "checked-light": "url('../assets/images/screenshots/checked-lt.png')",
         "checked-dark": "url('../assets/images/screenshots/checked-dk.png')",
+        "watchparty-light": "url('../assets/images/screenshots/watchparty-lt.png')",
+        "watchparty-dark": "url('../assets/images/screenshots/watchparty-dk.png')",
         "killa-light": "url('../assets/images/screenshots/killa-lt.png')",
         "killa-dark": "url('../assets/images/screenshots/killa-dk.png')",
       },
