@@ -11,17 +11,14 @@ $(window).on("beforeunload", function () {
 $(document).ready(function () {
   if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
     document.documentElement.classList.add("dark");
-    $("meta[name='theme-color']").attr("content", "#1d1d1f");
   } else {
     document.documentElement.classList.remove("dark");
-    $("meta[name='theme-color']").attr("content", "#f5f5f7");
   }
 });
 
 function toggleTheme() {
   $(document.documentElement).toggleClass("dark");
   localStorage.theme = $(document.documentElement).hasClass("dark") ? "dark" : "light";
-  $("meta[name='theme-color']").attr("content", $(document.documentElement).hasClass("dark") ? "#1d1d1f" : "#f5f5f7");
 }
 
 /** navbar functions **/
