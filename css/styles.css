@@ -614,14 +614,6 @@ video {
   order: 6;
 }
 
-.order-7 {
-  order: 7;
-}
-
-.order-8 {
-  order: 8;
-}
-
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -940,10 +932,6 @@ video {
   background-image: url('../assets/images/backgrounds/dots-bk.png');
 }
 
-.bg-killa-light {
-  background-image: url('../assets/images/screenshots/killa-lt.png');
-}
-
 .bg-watchparty-light {
   background-image: url('../assets/images/screenshots/watchparty-lt.png');
 }
@@ -1202,10 +1190,6 @@ video {
 
 :is(.dark .dark\:bg-dots-white) {
   background-image: url('../assets/images/backgrounds/dots-wh.png');
-}
-
-:is(.dark .dark\:bg-killa-dark) {
-  background-image: url('../assets/images/screenshots/killa-dk.png');
 }
 
 :is(.dark .dark\:bg-watchparty-dark) {

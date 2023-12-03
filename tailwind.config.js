@@ -66,8 +66,6 @@ module.exports = {
         "cashx-dark": "url('../assets/images/screenshots/cashx-dk.png')",
         "watchparty-light": "url('../assets/images/screenshots/watchparty-lt.png')",
         "watchparty-dark": "url('../assets/images/screenshots/watchparty-dk.png')",
-        "killa-light": "url('../assets/images/screenshots/killa-lt.png')",
-        "killa-dark": "url('../assets/images/screenshots/killa-dk.png')",
       },
       transitionProperty: {
         DEFAULT: "background-image, height, font-size, " + defaultTheme.transitionProperty.DEFAULT,
