@@ -60,10 +60,10 @@ module.exports = {
       backgroundImage: {
         "dots-white": "url('../assets/images/backgrounds/dots-wh.png')",
         "dots-black": "url('../assets/images/backgrounds/dots-bk.png')",
-        "cashx-light": "url('../assets/images/screenshots/cashx-lt.png')",
-        "cashx-dark": "url('../assets/images/screenshots/cashx-dk.png')",
         "checked-light": "url('../assets/images/screenshots/checked-lt.png')",
         "checked-dark": "url('../assets/images/screenshots/checked-dk.png')",
+        "cashx-light": "url('../assets/images/screenshots/cashx-lt.png')",
+        "cashx-dark": "url('../assets/images/screenshots/cashx-dk.png')",
         "watchparty-light": "url('../assets/images/screenshots/watchparty-lt.png')",
         "watchparty-dark": "url('../assets/images/screenshots/watchparty-dk.png')",
         "killa-light": "url('../assets/images/screenshots/killa-lt.png')",
