@@ -1,5 +1,3 @@
-# Portfolio
-
 <p align="center">
   <a href="https://jonathangiang.com" target="_blank">
     <img src="/assets/images/icons/brand.svg" alt="brand" width="128" height="128" />
