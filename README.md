@@ -6,7 +6,7 @@
 
 <h3 align="center">jagged creations</h3>
 
-<h6 align="center">Online portfolio.</h6>
+<h6 align="center">Online portfolio</h6>
 
 ## About
 
