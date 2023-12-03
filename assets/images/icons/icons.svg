@@ -1,3 +1,4 @@
+<!-- icons -->
 <svg xmlns="http://www.w3.org/2000/svg">
     <!-- brand -->
     <symbol fill="currentColor" viewBox="0 0 16 16" id="brand">
@@ -8,8 +9,8 @@
     </symbol>
     <!-- menu -->
     <symbol fill="currentColor" viewBox="0 0 16 16" id="menu">
-        <path 
-            fill-rule="evenodd" 
+        <path
+            fill-rule="evenodd"
             d="M 0 11.808594 L 16 11.808594 L 16 10.285156 L 0 10.285156 Z M 0 5.714844 L 16 5.714844 L 16 4.191406 L 0 4.191406 Z M 0 8.761719 L 16 8.761719 L 16 7.238281 L 0 7.238281 Z M 0 8.761719"
         ></path>
     </symbol>
