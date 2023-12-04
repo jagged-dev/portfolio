@@ -1052,6 +1052,10 @@ video {
   color: rgb(81 81 84 / var(--tw-text-opacity));
 }
 
+.text-gunmetal\/25 {
+  color: rgb(81 81 84 / 0.25);
+}
+
 .text-ice {
   --tw-text-opacity: 1;
   color: rgb(245 245 247 / var(--tw-text-opacity));
@@ -1234,6 +1238,10 @@ video {
 :is(.dark .dark\:text-silver) {
   --tw-text-opacity: 1;
   color: rgb(161 161 166 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-silver\/25) {
+  color: rgb(161 161 166 / 0.25);
 }
 
 :is(.dark .dark\:hover\:text-red:hover) {
