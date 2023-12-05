@@ -1012,6 +1012,10 @@ video {
   font-size: 3rem;
 }
 
+.text-md {
+  font-size: 0.875rem;
+}
+
 .text-sm {
   font-size: 0.75rem;
 }
@@ -1066,8 +1070,9 @@ video {
   color: rgb(235 0 40 / var(--tw-text-opacity));
 }
 
-.opacity-25 {
-  opacity: 0.25;
+.text-silver {
+  --tw-text-opacity: 1;
+  color: rgb(161 161 166 / var(--tw-text-opacity));
 }
 
 .transition {
