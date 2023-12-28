@@ -1032,6 +1032,10 @@ video {
   line-height: 1;
 }
 
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 .text-blue {
   --tw-text-opacity: 1;
   color: rgb(24 119 242 / var(--tw-text-opacity));
