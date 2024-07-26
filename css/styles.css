@@ -614,10 +614,6 @@ video {
   order: 6;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .flex {
   display: flex;
 }
@@ -776,10 +772,6 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1012,6 +1004,10 @@ video {
   font-size: 3rem;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-sm {
   font-size: 0.75rem;
 }
@@ -1034,6 +1030,11 @@ video {
 
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue {
@@ -1070,9 +1071,8 @@ video {
   color: rgb(235 0 40 / var(--tw-text-opacity));
 }
 
-.text-silver {
-  --tw-text-opacity: 1;
-  color: rgb(161 161 166 / var(--tw-text-opacity));
+.underline {
+  text-decoration-line: underline;
 }
 
 .transition {
