@@ -988,8 +988,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-end {
@@ -1069,10 +1077,6 @@ video {
 .text-red {
   --tw-text-opacity: 1;
   color: rgb(235 0 40 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .transition {
