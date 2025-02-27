@@ -63,8 +63,8 @@ module.exports = {
         "5/4": "5/4",
       },
       backgroundImage: {
-        "dots-white": "url('../assets/images/backgrounds/dots-wh.png')",
-        "dots-black": "url('../assets/images/backgrounds/dots-bk.png')",
+        "dots-white": "url('../assets/images/backgrounds/dots-white.png')",
+        "dots-black": "url('../assets/images/backgrounds/dots-black.png')",
         "fetch-light": "url('../assets/images/screenshots/fetch-light.png')",
         "fetch-dark": "url('../assets/images/screenshots/fetch-dark.png')",
         "checked-light": "url('../assets/images/screenshots/checked-light.png')",
