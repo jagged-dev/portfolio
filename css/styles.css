@@ -926,20 +926,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-cashx-light {
-  background-image: url('../assets/images/screenshots/cashx-lt.png');
-}
-
 .bg-checked-light {
-  background-image: url('../assets/images/screenshots/checked-lt.png');
+  background-image: url('../assets/images/screenshots/checked-light.png');
 }
 
 .bg-dots-black {
-  background-image: url('../assets/images/backgrounds/dots-bk.png');
-}
-
-.bg-watchparty-light {
-  background-image: url('../assets/images/screenshots/watchparty-lt.png');
+  background-image: url('../assets/images/backgrounds/dots-black.png');
 }
 
 .bg-cover {
@@ -1087,6 +1079,10 @@ video {
   color: rgb(235 0 40 / var(--tw-text-opacity));
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition {
   transition-property: background-image, height, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: background-image, height, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1231,20 +1227,12 @@ video {
   background-color: rgb(21 21 22 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-cashx-dark) {
-  background-image: url('../assets/images/screenshots/cashx-dk.png');
-}
-
 :is(.dark .dark\:bg-checked-dark) {
-  background-image: url('../assets/images/screenshots/checked-dk.png');
+  background-image: url('../assets/images/screenshots/checked-dark.png');
 }
 
 :is(.dark .dark\:bg-dots-white) {
-  background-image: url('../assets/images/backgrounds/dots-wh.png');
-}
-
-:is(.dark .dark\:bg-watchparty-dark) {
-  background-image: url('../assets/images/screenshots/watchparty-dk.png');
+  background-image: url('../assets/images/backgrounds/dots-white.png');
 }
 
 :is(.dark .dark\:text-ice) {
