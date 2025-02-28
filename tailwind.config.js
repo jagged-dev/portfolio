@@ -59,9 +59,6 @@ module.exports = {
         18: "4.5rem",
         22: "5.5rem",
       },
-      aspectRatio: {
-        "5/4": "5/4",
-      },
       backgroundImage: {
         "dots-white": "url('../assets/images/backgrounds/dots-white.png')",
         "dots-black": "url('../assets/images/backgrounds/dots-black.png')",
