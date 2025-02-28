@@ -59,6 +59,12 @@ module.exports = {
         18: "4.5rem",
         22: "5.5rem",
       },
+      height: {
+        "screen/2": "50vh",
+      },
+      width: {
+        "screen/2": "50vw",
+      },
       backgroundImage: {
         "dots-white": "url('../assets/images/backgrounds/dots-white.png')",
         "dots-black": "url('../assets/images/backgrounds/dots-black.png')",
@@ -68,7 +74,7 @@ module.exports = {
         "checked-dark": "url('../assets/images/screenshots/checked-dark.png')",
       },
       transitionProperty: {
-        DEFAULT: "background-image, height, font-size, " + defaultTheme.transitionProperty.DEFAULT,
+        DEFAULT: "background-image, height, width, font-size, " + defaultTheme.transitionProperty.DEFAULT,
         background: "background-image, background-color",
         font: "font-size, color",
       },
