@@ -25,8 +25,7 @@ Check out my side projects. You can take a look at each project's source code or
 
 ## Contact
 
-Feel free to send me an email at
-[jgiang.430@gmail.com](mailto:jgiang.430@gmail.com).
+Feel free to send me an email at <jgiang.430@gmail.com>.
 
 [html]: https://img.shields.io/badge/HTML-e54c21?style=for-the-badge&logo=html5&logoColor=ffffff
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML/
