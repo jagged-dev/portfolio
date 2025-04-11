@@ -6,12 +6,33 @@
         <title>Jonathan Giang | Cover Letter</title>
         <link rel="icon" href="/assets/images/favicon.ico" />
         <link rel="stylesheet" href="/css/styles.css" />
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
         <style>
             @page {
                 size: A4 portrait;
             }
         </style>
+
+        <script>
+            $(document).ready(function () {
+                const date = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+                const company = "";
+                const street = "";
+                const city = "";
+                const state = "";
+                const zipcode = "";
+                const position = "";
+                $("#date").text(date);
+                $("#company1").text(company);
+                $("#street").text(street);
+                $("#city").text(city);
+                $("#state").text(state);
+                $("#zipcode").text(zipcode);
+                $("#position").text(position);
+                $("#company2").text(company);
+            });
+        </script>
     </head>
     <body class="h-[297mm] w-[210mm] text-md text-black">
         <!-- letter -->
@@ -33,17 +54,17 @@
             <!-- border -->
             <hr />
             <!-- date -->
-            <p>[ MONTH DAY, YEAR ]</p>
+            <p id="date"></p>
             <!-- company -->
             <div class="flex flex-col">
-                <p>[ COMPANY NAME ]</p>
-                <p>[ STREET ]</p>
-                <p>[ CITY, STATE ZIPCODE ]</p>
+                <p id="company1"></p>
+                <p id="street"></p>
+                <p><span id="city"></span>, <span id="state"></span> <span id="zipcode"></span></p>
             </div>
             <!-- letter -->
             <div class="flex flex-col gap-4">
                 <p>Dear Hiring Manager,</p>
-                <p>As a Software Engineer with a passion for developing modern user interfaces and delivering engaging user experiences, I was very excited to find an opening for a [ POSITION ] position at [ COMPANY ].</p>
+                <p>As a Software Engineer with a passion for developing modern user interfaces and delivering engaging user experiences, I was very excited to find an opening for a <span id="position"></span> position at <span id="company2"></span>.</p>
                 <p>I specialize in designing and developing web applications that are performant, user-friendly, and visually appealing. With a strong background in HTML, JavaScript/TypeScript, CSS, and frontend frameworks like React, Vue, and Angular, I hope to become a valuable addition to your team.</p>
                 <p>
                     In my former role as Software Engineer Lead at Vikco, I led a team of five engineers to develop and maintain a unique, proprietary SaaS platform. This product was aimed at strengthening business relationships by visualizing, quantifying, and analyzing business value, making it easier to track areas
