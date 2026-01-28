@@ -702,10 +702,6 @@ video {
   width: 4.5rem;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
 .w-22 {
   width: 5.5rem;
 }
@@ -1015,10 +1011,6 @@ video {
   padding-top: 1rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-end {
   text-align: end;
 }
@@ -1103,9 +1095,9 @@ video {
 }
 
 .transition {
-  transition-property: background-image, height, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: background-image, height, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: background-image, height, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-property: background-image, height, width, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-image, height, width, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-image, height, width, font-size, color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
