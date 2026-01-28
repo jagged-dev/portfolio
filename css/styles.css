@@ -862,6 +862,10 @@ video {
   place-self: start;
 }
 
+.place-self-center {
+  place-self: center;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
