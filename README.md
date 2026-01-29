@@ -6,7 +6,7 @@
 [![JavaScript][javascript]][javascript-url]
 [![CSS][css]][css-url]
 [![jQuery][jquery]][jquery-url]
-[![TailwindCSS][tailwind]][tailwind-url]
+[![Tailwind][tailwind]][tailwind-url]
 [![Git][git]][git-url]
 [![GitHub][github]][github-url]
 
@@ -35,7 +35,7 @@ Feel free to send me an email at <jgiang.430@gmail.com>.
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS/
 [jquery]: https://img.shields.io/badge/jQuery-182a38?style=for-the-badge&logo=jquery&logoColor=1baee3
 [jquery-url]: https://jquery.com/
-[tailwind]: https://img.shields.io/badge/TailwindCSS-030712?style=for-the-badge&logo=tailwindcss&logoColor=3cbcf6
+[tailwind]: https://img.shields.io/badge/Tailwind-030712?style=for-the-badge&logo=tailwindcss&logoColor=3cbcf6
 [tailwind-url]: https://tailwindcss.com/
 [git]: https://img.shields.io/badge/Git-f0f0e8?style=for-the-badge&logo=git&logoColor=fa5534
 [git-url]: https://git-scm.com/
