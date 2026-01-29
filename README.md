@@ -31,7 +31,7 @@ Feel free to send me an email at <jgiang.430@gmail.com>.
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML/
 [javascript]: https://img.shields.io/badge/JavaScript-2e302c?style=for-the-badge&logo=javascript&logoColor=f0dc4e
 [javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
-[css]: https://img.shields.io/badge/CSS-2465f1?style=for-the-badge&logo=css&logoColor=ffffff
+[css]: https://img.shields.io/badge/CSS-663497?style=for-the-badge&logo=css&logoColor=ffffff
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS/
 [jquery]: https://img.shields.io/badge/jQuery-182a38?style=for-the-badge&logo=jquery&logoColor=1baee3
 [jquery-url]: https://jquery.com/
