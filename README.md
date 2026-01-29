@@ -29,7 +29,7 @@ Feel free to send me an email at <jgiang.430@gmail.com>.
 
 [html]: https://img.shields.io/badge/HTML-e54c21?style=for-the-badge&logo=html5&logoColor=ffffff
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML/
-[javascript]: https://img.shields.io/badge/JavaScript-2e302c?style=for-the-badge&logo=javascript&logoColor=f0dc4e
+[javascript]: https://img.shields.io/badge/JavaScript-fcdc2b?style=for-the-badge&logo=javascript&logoColor=130f25
 [javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 [css]: https://img.shields.io/badge/CSS-663497?style=for-the-badge&logo=css&logoColor=ffffff
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS/
