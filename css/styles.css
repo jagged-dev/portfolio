@@ -1437,3 +1437,9 @@ video {
     font-size: 5rem;
   }
 }
+
+@supports(-webkit-touch-callout:none) {
+  .\[\@supports\(-webkit-touch-callout\:none\)\]\:bg-scroll {
+    background-attachment: scroll;
+  }
+}
