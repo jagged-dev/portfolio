@@ -1,24 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  @font-face {
-    font-family: "SF Pro";
-    src: url("../assets/fonts/sf-pro/sf-pro-display-regular.ttf") format("truetype");
-  }
-}
-
-@supports (-webkit-touch-callout: none) {
-  @font-face {
-    font-family: "SF Pro";
-    src: url("../assets/fonts/sf-pro/sf-pro-display-semibold.ttf") format("truetype");
-    font-weight: bold;
-  }
-  .font-bold {
-    letter-spacing: -0.03em;
-  }
-  .bg-fixed {
-    background-attachment: scroll;
-  }
-}
