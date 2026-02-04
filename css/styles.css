@@ -1150,10 +1150,6 @@ video {
   }
 }
 
-.dark {
-  color-scheme: dark;
-}
-
 .hover\:bg-blue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(24 119 242 / var(--tw-bg-opacity));
